@@ -11,5 +11,6 @@
 + `footer *`[all elements inside](templates/10.html)
 + `p:first-of-type`[first element of given type in a container](templates/11.html)
 + `a:link`[non visited](templates/12.html)
- 
++ `li:not(.active)`[every li except active class](templates/13.html)
++ `li:nth-last-of-type(3)`[last 3 li](templates/14.html)
 
