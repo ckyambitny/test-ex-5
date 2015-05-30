@@ -13,4 +13,5 @@
 + `a:link`[non visited](templates/12.html)
 + `li:not(.active)`[every li except active class](templates/13.html)
 + `li:nth-last-of-type(3)`[last 3 li](templates/14.html)
++ `li:nth-of-type(2)`[first 2 li](templates/15.html)
 
