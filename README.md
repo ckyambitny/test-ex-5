@@ -30,3 +30,5 @@
 + `*` [literally all elements, mostly used to reset/normalize](templates/28.html)
 + `div * p`[paragraph that has div ancestor, but not direct parent](templates/29.html)
 + `div:empty`[divs that are empty and we want to hide they could interefere with layout](templates/30.html)
++`input: invalid`[valid input](templates/31.html)
++`input: invalid`[invalid inputs](templates/31.html)
