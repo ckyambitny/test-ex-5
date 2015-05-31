@@ -15,7 +15,7 @@
 + `li:not(.active)`[every li except active class](templates/13.html)
 + `li:nth-last-of-type(3)`[last 3 li](templates/14.html)
 + `li:nth-of-type(2)`[first 2 li](templates/15.html)
-+ `a[href=http://www.google.pl]`[specific value attribute selector](templates/16.html)
++ `a[href="http://www.google.pl"]`[specific value attribute selector](templates/16.html)
 + `a[title]`[just an atribute selector](templates/17.html)
 + `p + p` [adjacent sibling](templates/18.html)
 + `p::first-line`[first line in paragraph](templates/20.html)
@@ -25,4 +25,8 @@
 + `::selection`[selected for whole document](templates/24.html)
 + `div !> div#abc`[div parent of id abc div](templates/25.html)
 + `input[type=checkbox]:checked + label`[targeting label after checkbox when checked](templates/26.html)
-
++ `a:hover`[hover over](templates/19.html)
++ `:required`[any element with required attribute](templates/27.html)
++ `*` [literally all elements, mostly used to reset/normalize](templates/28.html)
++ `div * p`[paragraph that has div ancestor, but not direct parent](templates/29.html)
++ `div:empty`[divs that are empty and we want to hide they could interefere with layout](templates/30.html)
