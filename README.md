@@ -1,12 +1,10 @@
-# Selertor Master
+# Selector Master
+
 + `div:first-child`[first child](templates/1.html)
 + `div:last-child`[last child](templates/2.html)
 + `#home li:nth-child(1)`[nth child(1)](templates/3.html)
 + `#home li:nth-child(5)`[nth child(5)](templates/4.html)
-+ `#app::before`[before](templates/5.html)
-+ `#app::after`[after](templates/6.html)
-+ `.list nav ul li ul li a span`[multiple ascendants](templates/7.html)
-+ `.list > li > span`[child element](templates/8.html)
++ `#app::before`[before](templates/5.html) + `#app::after`[after](templates/6.html) + `.list nav ul li ul li a span`[multiple ascendants](templates/7.html) + `.list > li > span`[child element](templates/8.html)
 + `nav ~ p`[p element preceded by nav](templates/9.html)
 + `footer *`[all elements inside](templates/10.html)
 + `div:first-of-type`[first element of given type in a container](templates/11.html):
@@ -23,12 +21,11 @@
 + `a:active`[very short behaviour after clicked anchor](templates/12.html)
 + `p::first-letter`[first letter of paragraphs](templates/20.html)
 + `::selection`[selected for whole document](templates/20.html)
-+ `div !> div#abc`[div parent of id abc div, not supported yet](templates/25.html)
++ `div !> div#abc`[NOT SUPPORTED YET, div parent of id abc div](templates/25.html)
 + `input[type=checkbox]:checked + label`[targeting label after checkbox when checked](templates/26.html)
-+ `a:hover`[hover over](templates/19.html)
-+ `:required`[any element with required attribute](templates/27.html)
++ `input:required`[any element with required attribute](templates/27.html)
 + `*` [literally all elements, mostly used to reset/normalize](templates/28.html)
 + `div * p`[paragraph that has div ancestor, but not direct parent](templates/29.html)
-+ `div:empty`[divs that are empty and we want to hide they could interefere with layout](templates/30.html)
-+`input: invalid`[valid input](templates/31.html)
-+`input: invalid`[invalid inputs](templates/31.html)
++ `div:empty`[divs that are empty could interefere with layout, lets hide them](templates/30.html)
++ `input: valid`[valid input](templates/31.html)
++ `input: invalid`[invalid inputs](templates/31.html)
