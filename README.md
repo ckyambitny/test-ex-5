@@ -23,3 +23,6 @@
 + `a:active`[very short behaviour after clicked anchor](templates/22.html)
 + `p::first-letter`[first letter of paragraphs](templates/23.html)
 + `::selection`[selected for whole document](templates/24.html)
++ `div !> div#abc`[div parent of id abc div](templates/25.html)
++ `input[type=checkbox]:checked + label`[targeting label after checkbox when checked](templates/26.html)
+
